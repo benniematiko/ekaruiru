@@ -1,0 +1,262 @@
+/* 
+.hero {
+  position: relative;
+  margin-top: -80px;
+  background: url("./farmlandone.jpg") center center/cover no-repeat;
+  background: url("./farmlandone.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain; 
+  position: absolute;
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+}
+
+hero::after {
+  content:"";
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  background: yellow;
+  position: absolute;
+}
+
+
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+} 
+
+.hero-container {
+  position: absolute;
+
+  width: 40%;
+  left: 8vw;
+  
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  align-items: flex-start;
+  gap: 1.4rem;
+ 
+  
+}
+
+.hero-container > h1 {
+  color: wheat;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -100px; 
+  margin-top: -100px; 
+  max-width: 100%;
+
+  letter-spacing: -0.4px;
+  line-height: 56px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color:wheat;
+  font-size: 22px;
+
+} */
+
+.hero {
+  width: 100%;
+  height: 95vh;
+  background: url("/eliza-main.jpg") no-repeat;
+  /* background: url('/farmlandone.jpg') no-repeat;  */
+  background-size: 60%;
+
+  position: relative;
+  height: 110vh;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 1.5vw;
+  max-width: 60%;
+  bottom: 20%;
+  right: 12vw;
+}
+
+.commissioner h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 20px;
+  color: gold;
+  font-style: italic;
+}
+
+.notary h4 {
+  font-weight: 500;
+  font-size: 40px;
+  color: gold;
+  font-style: italic;
+}
+
+.over h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.kshs h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.consultation {
+  margin: 18px 0;
+}
+
+.free-consul {
+  padding: 20px 40px;
+  margin-right: 12px;
+  border: none;
+  /* background-color: gold; */
+  background-color: #150958;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.free-result {
+  padding: 20px 40px;
+  border: 1px solid #150958;
+  color: #150958;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.legalstatus h1 {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.free-consul:hover {
+  background-color: transparent;
+  border: 1px solid #150958;
+  color: #150958;
+}
+
+.free-result:hover {
+  background-color: #150958;
+  border: none;
+  color: white;
+}
+
+.reviewed {
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 12px;
+}
+
+/* MEDIA QUERY */
+
+
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-container {
+    gap: 0.5vw;
+    max-width: 92%;
+    bottom: 10%;
+    right: 3vw;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero-container {
+    gap: 0.5vw;
+    max-width: 92%;
+    bottom: 10%;
+    right: 3vw;
+  }
+
+  .commissioner h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: gold;
+    font-style: italic;
+    text-align: right;
+  }
+
+  .notary h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: gold;
+    font-style: italic;
+    text-align: right;
+  }
+
+  .over h2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .kshs h2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  .consultation {
+    text-align: right;
+  }
+
+  .free-consul {
+    padding: 10px 20px;
+    margin-right: 4px;
+    font-size: 12px;
+  }
+
+  .free-result {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .legalstatus h1 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .reviewed {
+    text-decoration: underline;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 12px;
+    margin-top: 6px;
+  }
+}

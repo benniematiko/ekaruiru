@@ -1,0 +1,16 @@
+.specialrequest {
+  width: 100%;
+  background-color:#0c807d;
+  color:white;
+}
+
+.specialrequest-container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.special-request-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+

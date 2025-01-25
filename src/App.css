@@ -1,0 +1,88 @@
+/* .app {
+  position: relative;
+  margin-top: -80px;
+  background: url("./farmlandone.jpg") center center/cover no-repeat; 
+  background: url("./farmlandone.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain; 
+  position: absolute; 
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+}
+
+.app::after {
+  content:"";
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+ 
+  position: absolute;
+} */
+
+/* #root {
+  max-width: 100%;
+  margin: 0 auto;
+   padding: 2rem; 
+  text-align: center; 
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa)
+}
+
+.logo.react:hover {
+  filter: drop-shadow( 0 0 2em #61dafbaa)
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-size: ;
+  background-color:#141414;
+} */
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 86%;
+  margin:auto;
+}
+
+.fa-bars {
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  cursor: pointer;
+}
+

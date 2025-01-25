@@ -1,0 +1,78 @@
+.servicessummary {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.servicessummary-container {
+  width: 86%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.freeconsultation,
+.availability,
+.status {
+  border-right: 1px dotted #231f20;
+  padding: 0 12px;
+}
+
+.freeconsultation,
+.availability,
+.status,
+.post-legal {
+  padding: 0 12px;
+}
+
+.freeconsultation h1,
+.availability h1,
+.status h1,
+.post-legal h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.freeconsultation p,
+.availability p,
+.status p,
+.post-legal p {
+  font-size: 18px;
+  color: #585253;
+  line-height: 24px;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 900px) {
+  .servicessummary-container {
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .freeconsultation,
+  .availability,
+  .status,
+  .post-legal {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .servicessummary-container {
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .freeconsultation,
+  .availability,
+  .status,
+  .post-legal {
+    margin-bottom: 12px;
+  }
+}

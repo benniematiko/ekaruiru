@@ -1,0 +1,56 @@
+.distinguishedattorney {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.distinguishedattorney-container {
+  width: 86%;
+  margin:0 auto;
+}
+
+.distinguished-heading {
+  margin-bottom: 60px;
+}
+
+.distinguished-heading h1 {
+  font-size: 32px;
+}
+
+.distinguished-photo {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+.attorney-name h1 {
+  font-weight: 300;
+  font-size: 28px;
+  padding: 6px 0;
+  
+}
+
+.title p {
+  font-weight: 200;
+  font-size: 16px;
+  color: #585253;
+  
+  
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 900px) {
+  .distinguished-photo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+ }
+
+ @media only screen and (max-width: 748px) {
+  .distinguished-photo {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+ }

@@ -1,0 +1,58 @@
+.statistics {
+  width: 100%;
+  background-color: #150958;
+  color: white;
+}
+.statistics-container {
+  width: 86%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 72px 0;
+}
+
+.statistics-cases-handled,
+.statistics-loan-recovery,
+.statistics-litigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics .title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.statistics-amount h1 {
+  font-weight: 500;
+  font-size: 31px;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 900px) {
+  .statistics-container {
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 72px 0;
+  }
+  .statistics-cases-handled, .statistics-loan-recovery,.statistics-litigation {
+    margin-bottom: 42px; 
+    
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .statistics-container {
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 72px 0;
+  }
+}
+

@@ -1,0 +1,45 @@
+.whykaruiru {
+  width: 100%;
+}
+
+.whykaruiru-container {
+  width: 86%;
+  margin: 0  auto;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.standout {
+  height: 380px;
+  
+}
+
+.whykaruiru-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  padding-left: 24px;
+}
+
+.whykaruiru-title {
+  margin-bottom: 20px;
+}
+.whykaruiru-right p {
+  color:#585253;
+  line-height: 24px;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 900px) {
+  .whykaruiru-container {
+    width: 92%;
+    margin: 0  auto;  
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+}
+

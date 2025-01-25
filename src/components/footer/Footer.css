@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  background-color: #150958;  
+  color: white;
+}
+
+.footer-container {
+  width: 86%;
+  margin:0 auto;
+  padding: 50px 0;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.footer-logo img {
+  height: 100px;
+
+}
+
+
+
+.footer-container-bottom {
+  width: 86%;
+  margin:0 auto;
+  padding: 6px 0; 
+
+}
+.footer-copyright {
+  background-color: red;
+}
