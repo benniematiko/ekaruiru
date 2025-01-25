@@ -68,7 +68,7 @@ const Hero = () => {
         </div>
 
         <div className="over"><h2>Over</h2></div>
-        <div className="kshs"><h2>Kshs 500 million Won!</h2></div>
+        <div className="kshs"><h2>200 Cases Won!</h2></div>
 
         <div className="consultation">
           <button className="free-consul">Free Consultations</button>

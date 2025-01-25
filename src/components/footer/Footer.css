@@ -1,31 +1,128 @@
 .footer {
   width: 100%;
-  background-color: #150958;  
+  background-color: #150958;
   color: white;
 }
 
 .footer-container {
   width: 86%;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 50px 0;
 
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 60%);
 }
 
 .footer-logo img {
   height: 100px;
-
 }
-
-
 
 .footer-container-bottom {
   width: 86%;
-  margin:0 auto;
-  padding: 6px 0; 
-
+  margin: 0 auto;
+  padding: 6px 0;
 }
-.footer-copyright {
-  background-color: red;
+
+.footer-phone {
+  margin: 18px 0;
+  font-size: 24px;
+}
+.footer-phone h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer-socials {
+  display: flex;
+  margin: 38px 0;
+}
+
+
+.footer-socials a {
+  margin-right: 16px;
+  font-size: 24px;
+}
+
+
+.footer-socials a:hover  {
+  color:gold;
+}
+
+
+.footer-text p {
+  width: 60%;
+}
+
+.footer-nairobi-office,
+.footer-migori-office,
+.footer-nakuru-office {
+  padding: 20px 0;
+}
+.footer-nairobi-office h1,
+.footer-migori-office h1,
+.footer-nakuru-office h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.footer-copyright p {
+  font-size: 16px;
+}
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 900px) { 
+
+  .footer-container {
+    width: 86%;
+    margin: 0 auto;
+    padding: 50px 0;
+  
+    display: grid;
+    grid-template-columns: repeat(1, 92%);
+  }
+
+  .footer-logo img {
+    display: none;
+  }
+
+  .footer-phone {
+    display: flex;
+    justify-content: center;
+    margin: 9px 0;
+    font-size: 12px;
+  }
+
+  .footer-socials {
+    display: flex;
+    margin: 38px 0;
+    justify-content: center;
+  }
+  
+  
+  .footer-socials a {
+    margin-right: 22px;
+    font-size: 24px;
+  }
+
+  .footer-text p {
+    width: 100%;
+  }
+
+  .footer-right, .footer-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  
+  
+  
+ 
+
 }
